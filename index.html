@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        input:focus{
+            outline: none;
+        }
+        td{
+            padding: 0px;
+            margin: 0px;
+        }
+        table{
+            border-spacing: 0px;
+        }
+        body{
+            min-height: 100vh;
+            margin: 0px;
+            padding: 0px;
+            background-image:url("wall.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: aliceblue;
+        }
+        #head{
+            font-size: 2em;
+        }
+        #inputtext{
+            height: 20px;
+            border: none;
+            padding: 0px;
+            margin: 0px;
+            
+        }
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 100vh;
+            
+            
+        }
+        .mr
+        {
+            margin: 10px;
+            border: none;
+            border-radius: 50%;
+        }
+        .bgwhite{
+            background-color: white;
+            height: 20px;
+            color: black;
+            padding: 0px;
+            margin: 0px;
+            
+        }
+        #bg1{
+            border-radius: 0% 50% 50% 0%;
+            padding-right: 10px;
+            padding-top: 5px;
+        }
+        #bg2{
+            border-radius: 50% 0% 0% 50%;
+            padding-left: 10px;
+            padding-top: 5px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chrome front</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1 id="head">GOOGLE</h1>
+    <table>
+        <tr>
+            <td class="bgwhite" id="bg2"><span class="material-icons">
+                search
+                </span></td>
+            <td  width="7" style="height: 20px; background-color: white;">
+                <input id="inputtext" type="text">
+                 </td>
+            <td class="bgwhite" id="bg1"><span class="material-icons">
+                mic
+                </span></td>
+        </tr>
+    </table>
+    <br>
+
+    <table>
+        <tr>
+            <td ><img class="mr" src="codecheficon.png" alt="" height="40px"></td>
+            <td ><img class="mr" src="hackerrankicon.png" alt="" height="40px"></td>
+            <td ><img class="mr" src="leetcodeicon.png" alt="" height="40px"></td>
+        </tr>
+        <tr>
+            <td ><img class="mr" src="gfgicon.png" alt="" height="40px"></td>
+            <td ><img class="mr" src="udemyicon.png" alt="" height="40px"></td>
+            <td ><img class="mr" src="youtubeicon.png" alt="" height="40px"></td>
+        </tr>
+    </table>
+    
+    </div>
+</body>
+</html>
